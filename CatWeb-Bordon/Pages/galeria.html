@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Location</title>
         <link rel="shortcup icon" href="../assets/img/favicon.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
@@ -23,18 +24,66 @@
         <img class="gif" src="../assets/gif/gato.gif" alt="gif de dos gatitos">
     </header>
     <!-- nav -->
-    <nav  class="grid-nav">
-        <ul class="galerianav">
-            <li class="nav1"><a href="../index.html">Home</a></li>
-            <li class="nav1"><a href="Tienda.html">Tienda</a></li>
-            <li class="nav1"><a href="Ubicacion.html">Ubicacion</a></li>
-            <li class="nav1"><a href="Contacto.html">Contacto</a></li>
-            <li class="nav1"><a href="galeria.html">Galeria</a></li>
-            <li class="nav1"><a href="galeria.html#foot">Footer</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light grid-nav navmod1 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Tienda.html">CatsWorld</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item nav1">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    <li class="nav-item nav1">
+                        <a class="nav-link" href="Tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item nav1">
+                        <a class="nav-link" href="Contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item nav1">
+                        <a class="nav-link" href="Ubicacion.html">Ubicacion</a>
+                    </li>
+                    </li>
+                    <li class="nav-item nav1">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item nav1">
+                        <a class="nav-link" href="galeria.html#foot">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
         <!-- section -->
+
         <section class="grid-section">
+            <div id="carouselExampleIndicators" class="carousel slide col-12" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/img/1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/2.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/5.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             <article class="galeriaimg">
                 <img class="imgs" src="../assets/img/1.jpg" alt="">
                 <img class="imgs" src="../assets/img/2.webp" alt="">
@@ -52,6 +101,7 @@
             <h3>&copy;Nahuel Mateo Bordon | Website</h3>
         <a href="./Tienda.html"><i class="fa-solid fa-cat"></i></a>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </div>
 </body>
 </html>

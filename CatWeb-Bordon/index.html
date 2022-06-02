@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cats World</title>
     <link rel="shortcup icon" href="./assets/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,17 +28,38 @@
             <img class="gif" src="./assets/gif/gato.gif" alt="gif de dos gatitos">
         </header>
         <!-- nav -->
-        <nav class="grid-nav">
-            <ul class="Lista--mod">
-                <li class="nav1"><a href="index.html">Home</a></li>
-                <li class="nav1"><a href="./Pages/Tienda.html">Tienda</a></li>
-                <li class="nav1"><a href="./Pages/Ubicacion.html">Ubicacion</a></li>
-                <li class="nav1"><a href="./Pages/Contacto.html">Contacto</a></li>
-                <li class="nav1"><a href="./Pages/galeria.html">Galeria</a></li>
-                <li class="nav1"><a href="index.html#foot">Footer</a></li>
-
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light grid-nav navmod1 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./Pages/Tienda.html">CatsWorld</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav1">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <li class="nav-item nav1">
+                            <a class="nav-link" href="./Pages/Tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item nav1">
+                            <a class="nav-link" href="./Pages/Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item nav1">
+                            <a class="nav-link" href="./Pages/Ubicacion.html">Ubicacion</a>
+                        </li>
+                        </li>
+                        <li class="nav-item nav1">
+                            <a class="nav-link" href="./Pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item nav1">
+                            <a class="nav-link" href="index.html#foot">Footer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+    
         <!-- section -->
         <div class="grid-section">
             <section>
@@ -99,6 +122,9 @@
             <h3>&copy;Nahuel Mateo Bordon | Website</h3>
             <a href="./Pages/Tienda.html"><i class="fa-solid fa-cat"></i></a>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
     </div>
 </body>
 

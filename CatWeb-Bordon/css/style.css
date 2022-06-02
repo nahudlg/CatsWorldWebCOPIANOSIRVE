@@ -424,3 +424,18 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .bufa{
     transition: all 0.7s;
 }
+/* Bootstrap */
+.navmod1{
+    background-color: #2f59a7;
+}
+.btnmod2{
+    color: #fff;
+    background-color: #0360b1;
+    border-color: #0870cc;
+}
+.btnmod1{
+    color: #fff;
+    background-color: #b60202;
+    border-color: #660303;
+}
+    
